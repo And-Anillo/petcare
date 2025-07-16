@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/css/styles.css" />
     <title>Document</title>
-    <link rel="stylesheet" href="/src/css/styles.css">
     <meta name="description" content="Un servicio especial para tus mascotas.">
     <meta name="keywords" content="mascotas, cuidado, instancias">
     <meta name="sitedomain" content="https://github.com/And-Anillo/petcare.git">
@@ -17,9 +18,41 @@
     <meta name="revisit-after" content="15days">
     <meta name="theme-color" content="#ffffff">
 </head>
-<body>
-    
 
-    <script type="module" src="/src/js/main.js"></script>
+<body>
+    <section id="landing">
+        <header class="landing-header">
+            <h1>🐾 PetCare Center</h1>
+            <nav>
+                <button id="go-to-login">Iniciar sesión</button>
+                <button id="go-to-register">Registrarse</button>
+            </nav>
+        </header>
+
+        <main class="landing-main">
+            <section class="landing-text">
+                <h2>Tu mascota merece vacaciones también</h2>
+                <p>En <strong>PetCare Center</strong> cuidamos de tu peludo amigo como si fuera nuestro. Mientras tú te
+                    relajas,
+                    nosotros nos encargamos de su felicidad, comodidad y bienestar.</p>
+                <div class="landing-cta">
+                    <button id="cta-login">Ya tengo cuenta</button>
+                    <button id="cta-register">Quiero registrarme</button>
+                </div>
+            </section>
+
+            <div class="landing-image">
+                <img src="https://cdn.pixabay.com/photo/2017/09/25/13/12/dog-2785074_1280.jpg"
+                    alt="Perro feliz en cuidado" />
+            </div>
+        </main>
+
+        <footer class="landing-footer">
+            <p>&copy; 2025 PetCare Center. Todos los derechos reservados.</p>
+        </footer>
+    </section>
+
+    <script type="module" src="src/js/main.js"></script>
 </body>
+
 </html>

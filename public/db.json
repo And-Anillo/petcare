@@ -1,0 +1,20 @@
+{
+    "users": [
+        {
+            "id": "2553",
+            "user": "anderson01",
+            "email": "anderson@gmail.com",
+            "phone": "312412424",
+            "password": "1234"
+        },
+        {
+            "id": "f2d3",
+            "nameComplete": "anderson",
+            "user": "sebastian02",
+            "email": "sebastian@gmail.com",
+            "phone": "3207404963",
+            "password": "12345"
+        }
+    ],
+    "pet": []
+}
