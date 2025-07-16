@@ -23,6 +23,20 @@
       "type": "chanda",
       "age": 10,
       "image": "https://cdn.pixabay.com/photo/2017/09/25/13/12/dog-2785074_1280.jpg"
+    },
+    {
+      "id": "bd30",
+      "name": "matador",
+      "type": "pitbull",
+      "age": 2,
+      "image": "https://cdn.pixabay.com/photo/2017/09/25/13/12/dog-2785074_1280.jpg"
+    },
+    {
+      "id": "04d1",
+      "name": "peluza",
+      "type": "gato",
+      "age": 1,
+      "image": "https://cdn.pixabay.com/photo/2017/09/25/13/12/dog-2785074_1280.jpg"
     }
   ]
 }
